@@ -1,0 +1,45 @@
+.contenedor {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+.contenedor div {
+	box-sizing: border-box;
+
+}
+
+
+@media all and (max-width: 500px) {
+	.bloque1{
+		width: 100%;
+		order: 2;
+	}
+
+	.c2 {
+		width: 100%;
+		order: 1;
+	}
+	.bloque2{
+		width: 100%;
+		order: 3;
+	}
+
+	.bloque7{
+		width: 100%;
+		order: 4;
+	}
+
+.bloque8{
+	width: 100%;
+	order: 5;
+}
+.bloque9{
+	width: 100%;
+	order: 6;
+}
+.bloque10{
+	width: 100%;
+	order: 7;
+}
